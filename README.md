@@ -8,4 +8,6 @@ Includes three files:
 
 To use:
 * attach .d64 disk image to your emulator of choice, such as [VICE - the Versatile Commodore Emulator](https://vice-emu.sourceforge.io/)
-* type '''LOAD "ALBERO",8'''
+* type ```LOAD "ALBERO",8```
+
+![albero](https://user-images.githubusercontent.com/34490356/232238235-826dc52f-a107-440c-897a-05efabf763e0.png)

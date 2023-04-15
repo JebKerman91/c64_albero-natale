@@ -5,3 +5,7 @@ Includes three files:
 * .d64 disk image - includes the program named "albero"
 * .prg program file as read from the disk image
 * .txt file with the human-readable listing
+
+To use:
+* attach .d64 disk image to your emulator of choice, such as [VICE - the Versatile Commodore Emulator](https://vice-emu.sourceforge.io/)
+* type '''LOAD "ALBERO",8'''

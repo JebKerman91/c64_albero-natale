@@ -1,0 +1,211 @@
+  100 rem albero
+  120 poke 53280,6:poke 53281,5
+  140 a$=" ":s$=".":d$=".":ts$=".":td$="."
+  150 g$=chr$(31)
+  151 i$=chr$(18)
+  152 j$=chr$(146)
+  153 b$=chr$(5)
+  155 kk$=i$+a$+j$
+  156 kj$=i$+g$+a$+j$
+  157 ki$=i$+b$+a$+j$
+  160 print"";
+  170 print g$;
+  180 for i=1to228:printkk$;
+  181 next i
+  200 printg$s$;
+  205 printg$d$;
+  210 for i=1to37:printkk$;
+  211 next i
+  215 printg$d$;
+  220 for i=1to2:printa$;
+  221 next i
+  225 printg$d$;
+  230 for i=1to36:printkk$;
+  231 next i
+  235 printg$s$;
+  240 for i=1to2:printa$;
+  241 next i
+  245 printg$d$;
+  250 for i=1to35:printkk$;
+  251 next i
+  255 printg$s$;
+  260 for i=1to4:printa$;
+  261 next i
+  265 printg$d$;
+  270 for i=1to34:printkk$;
+  271 next i
+  275 printg$d$;
+  280 for i=1to4:printa$;
+  281 next i
+  285 printg$d$;
+  290 for i=1to33:printkk$;
+  291 next i
+  295 printg$d$;
+  300 for i=1to6:printa$;
+  301 next i
+  305 printg$d$;
+  310 for i=1to31:printkk$;
+  311 next i
+  315 printg$d$;
+  320 for i=1to8:printa$;
+  321 next i
+  325 printg$d$;
+  330 for i=1to31:printkk$;
+  331 next i
+  335 printg$d$;
+  340 for i=1to6:printa$;
+  341 next i
+  345 printg$d$;
+  350 for i=1to31:printkk$;
+  351 next i
+  355 printg$s$;
+  360 for i=1to8:printa$;
+  361 next i
+  365 printg$s$;
+  370 for i=1to29:printkk$;
+  371 next i
+  375 printg$s$;
+  380 for i=1to10:printa$;
+  381 next i
+  385 printg$d$;
+  390 for i=1to29:printkk$;
+  391 next i
+  395 printg$s$;
+  400 for i=1to8:printa$;
+  401 next i
+  405 printg$s$;
+  410 for i=1to29:printkk$;
+  411 next i
+  415 printg$s$;
+  420 for i=1to10:printa$;
+  421 next i
+  425 printg$d$;
+  430 for i=1to27:printkk$;
+  431 next i
+  435 printg$s$;
+  440 for i=1to12:printa$;
+  441 next i
+  445 printg$d$;
+  450 for i=1to32:printkk$;
+  451 next i
+  460 for i=1to2:printkk$;
+  461 next i
+  465 for i=1to38:printkj$;
+  466 next i
+  470 for i=1to2:printkk$;
+  471 next i
+  475 for i=1to38:printkj$;
+  476 next i
+  480 for i=1to2:printkk$;
+  481 next i
+  485 for i=1to38:printkj$;
+  486 next i
+  490 for i=1to2:printkk$;
+  491 next i
+  495 for i=1to10:printkj$;
+  496 next i
+  497 for i=1to80:printki$;
+  498 next i
+  500 sc=1024:co=55296
+  510 poke sc+348,81:poke co+348,2
+  520 poke sc+390,81:poke co+390,7
+  530 poke sc+426,81:poke co+426,4
+  540 poke sc+468,81:poke co+468,6
+  550 poke sc+470,81:poke co+470,7
+  560 poke sc+546,81:poke co+546,2
+  570 poke sc+549,81:poke co+549,10
+  580 poke sc+585,81:poke co+585,7
+  590 poke sc+593,81:poke co+593,8
+  600 poke sc+628,81:poke co+628,4
+  610 poke sc+631,81:poke co+631,3
+  620 poke sc+665,81:poke co+665,2
+  630 poke sc+673,81:poke co+673,7
+  640 poke sc+708,81:poke co+708,4
+  650 poke sc+711,81:poke co+711,2
+  700 poke sc+506,99:poke co+506,7
+  710 poke sc+507,69:poke co+507,7
+  720 poke sc+508,68:poke co+508,7
+  730 poke sc+509,68:poke co+509,7
+  740 poke sc+510,69:poke co+510,7
+  750 poke sc+511,99:poke co+511,7
+  760 poke sc+586,70:poke co+586,7
+  770 poke sc+587,64:poke co+587,7
+  780 poke sc+588,67:poke co+588,7
+  790 poke sc+589,68:poke co+589,7
+  800 poke sc+590,69:poke co+590,7
+  810 poke sc+591,99:poke co+591,7
+  820 poke sc+551,100:poke co+551,7
+  830 poke sc+552,82:poke co+552,7
+  840 poke sc+387,99:poke co+387,7
+  850 poke sc+388,69:poke co+388,7
+  860 poke sc+389,99:poke co+389,7
+  870 poke sc+350,100:poke co+350,7
+  900 poke sc+269,42:poke co+269,7
+  905 for i=1to1000:next i
+  910 poke sc+429,42:poke co+429,7
+  920 poke sc+705,42:poke co+705,7
+  930 poke sc+627,42:poke co+627,7
+  940 poke sc+627,42:poke co+472,7
+  950 poke sc+670,42:poke co+670,7
+  960 poke sc+347,42:poke co+347,7
+  970 poke sc+547,42:poke co+547,7
+  980 poke sc+551,42:poke co+551,7
+  990 poke sc+465,42:poke co+465,7
+ 1000 rem stella cometa
+ 1010 v=53248: rem inizio vic ii
+ 1020 for x=0to62:read q
+ 1030 poke 832+x,q:next x:rem 832=13*64
+ 1040 for x=0to62:read q
+ 1050 poke15744+x,q:next x:rem 246*64
+ 1060 for x=0to62:read q
+ 1070 poke15808+x,q:next x:rem 247*64
+ 1080 for x=0to62:read q
+ 1090 poke15872+x,q:next x:rem 248*64
+ 1200 poke 2040,13:poke2041,246:poke2042,247:poke2043,248
+ 1230 poke v+23,1:poke v+29,1
+ 1250 poke v+0,247:poke v+1,57
+ 1251 poke v+2,80:poke v+3,80
+ 1252 poke v+4,102:poke v+5,80
+ 1253 poke v+6,124:poke v+7,80
+ 1260 poke v+21,15
+ 1270 poke v+39,7
+ 1271 poke v+40,1
+ 1272 poke v+41,1
+ 1273 poke v+42,1
+ 1300 poke v+21,1
+ 1320 for i=0to500:next i
+ 1330 poke v+21,15
+ 1340 for i=0to500:next i
+ 1350 goto 1300
+ 4000 data 0,0,0, 0,0,0, 0,0,7
+ 4001 data 0,0,24, 0,0,103, 0,1,152
+ 4002 data 0,6,103, 0,13,184, 0,30,192
+ 4003 data 0,59,0, 0,124,0, 136,240,0
+ 4004 data 73,192,0, 43,0,0, 30,0,0
+ 4005 data 255,128,0, 28,0,0, 42,0,0
+ 4006 data 73,0,0, 136,128,0, 0,0,0
+ 4010 data 255,12,24, 255,140,24
+ 4011 data 192,204,24, 192,204,24
+ 4012 data 255,140,24, 255,140,24
+ 4013 data 192,204,24, 192,204,24
+ 4014 data 255,135,240, 255,3,224
+ 4015 data 0,0,0, 224,195,224
+ 4016 data 240,199,240, 216,206,56
+ 4017 data 204,204,24, 198,204,24
+ 4018 data 195,207,248, 193,207,248
+ 4019 data 192,204,24, 192,204,24, 192,204,24
+ 4020 data 60,56,96, 126,60,96, 195,54
+ 4021 data 96,195,51,96,195,49,224,195
+ 4022 data 48,224,195, 48,96,195, 48,96
+ 4023 data 126,48,96, 60,48,96, 0,0
+ 4024 data 0,255,15, 134,255,31, 198,24
+ 4025 data 56,230,24, 48,102,24, 48,102
+ 4026 data 24,63,230, 24,63,230, 24,48
+ 4027 data 102,24,48, 103,24,48, 103
+ 4030 data 0,0,0, 0,0,0, 0,0,0, 0,0,0
+ 4031 data 0,0,0, 0,0,0, 0,0,0, 0,0,0
+ 4032 data 0,0,0, 0,0,0, 0,0,0, 1,252,0
+ 4033 data 1,252,0, 1,128,0, 1,128
+ 4034 data 0,1,224, 0,1,224, 0,1
+ 4035 data 128,0,1, 128,0,249, 252,0
+ 4036 data 249,252,0
